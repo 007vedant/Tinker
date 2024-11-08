@@ -23,7 +23,7 @@ public class MainLogger {
         Logger logger1 = LoggerFactory.getLogger(LoggerType.ASYNC);
         logger1.setLoggerConfig(loggerConfig1);
 
-        logger1.info("This is a message for info log published through Async Logger");
+        logger1.warn("This is a message for warn log published through Async Logger");
         logger1.debug("This is a message for debug log published through Async Logger");
         logger1.fatal("This is a message for fatal log published through Async Logger");
 
