@@ -1,0 +1,3 @@
+[INFO] [1731061225273]: This is a message for info log published through Async Logger
+[DEBUG] [1731061225273]: This is a message for debug log published through Async Logger
+[FATAL] [1731061225273]: This is a message for fatal log published through Async Logger
