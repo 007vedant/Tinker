@@ -1,13 +1,13 @@
-package org.tinker;
+package com.tinker;
 
-import org.tinker.logger.appenders.ConsoleAppender;
-import org.tinker.logger.appenders.FileAppender;
-import org.tinker.logger.core.AsyncLogger;
-import org.tinker.logger.core.Logger;
-import org.tinker.logger.entities.LoggerConfig;
-import org.tinker.logger.enums.LogLevel;
-import org.tinker.logger.enums.LoggerType;
-import org.tinker.logger.factory.LoggerFactory;
+import com.tinker.logger.appenders.ConsoleAppender;
+import com.tinker.logger.appenders.FileAppender;
+import com.tinker.logger.core.AsyncLogger;
+import com.tinker.logger.core.Logger;
+import com.tinker.logger.entities.LoggerConfig;
+import com.tinker.logger.enums.LogLevel;
+import com.tinker.logger.enums.LoggerType;
+import com.tinker.logger.factory.LoggerFactory;
 
 public class MainLogger {
     public static void main(String[] args) {

@@ -1,10 +1,9 @@
-package org.tinker.logger.factory;
+package com.tinker.logger.factory;
 
-import org.tinker.logger.core.AsyncLogger;
-import org.tinker.logger.core.Logger;
-import org.tinker.logger.core.SyncLogger;
-import org.tinker.logger.enums.LoggerType;
-import org.tinker.logger.entities.LoggerConfig;
+import com.tinker.logger.core.AsyncLogger;
+import com.tinker.logger.core.Logger;
+import com.tinker.logger.core.SyncLogger;
+import com.tinker.logger.enums.LoggerType;
 
 /**
  * Factory class to provide logger instance based on user configuration.

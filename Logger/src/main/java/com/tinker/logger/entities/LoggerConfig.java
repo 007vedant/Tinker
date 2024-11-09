@@ -1,10 +1,11 @@
-package org.tinker.logger.entities;
+package com.tinker.logger.entities;
 
-import org.tinker.logger.appenders.LogAppender;
-import org.tinker.logger.enums.LogLevel;
+import com.tinker.logger.appenders.LogAppender;
+import com.tinker.logger.core.Logger;
+import com.tinker.logger.enums.LogLevel;
 
 /**
- * Class to model config to be provided to {{@link org.tinker.logger.core.Logger}}
+ * Class to model config to be provided to {{@link Logger}}
  */
 public class LoggerConfig {
     private LogLevel logLevel;

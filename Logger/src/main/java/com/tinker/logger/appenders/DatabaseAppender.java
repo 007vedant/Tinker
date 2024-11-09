@@ -1,6 +1,6 @@
-package org.tinker.logger.appenders;
+package com.tinker.logger.appenders;
 
-import org.tinker.logger.entities.LogMessage;
+import com.tinker.logger.entities.LogMessage;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

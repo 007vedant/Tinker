@@ -1,6 +1,6 @@
-package org.tinker.logger.entities;
+package com.tinker.logger.entities;
 
-import org.tinker.logger.enums.LogLevel;
+import com.tinker.logger.enums.LogLevel;
 
 /**
  * Class to model the message to be logged.

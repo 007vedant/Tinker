@@ -1,9 +1,9 @@
-package org.tinker.logger.core;
+package com.tinker.logger.core;
 
-import org.tinker.logger.appenders.ConsoleAppender;
-import org.tinker.logger.entities.LogMessage;
-import org.tinker.logger.entities.LoggerConfig;
-import org.tinker.logger.enums.LogLevel;
+import com.tinker.logger.appenders.ConsoleAppender;
+import com.tinker.logger.entities.LogMessage;
+import com.tinker.logger.entities.LoggerConfig;
+import com.tinker.logger.enums.LogLevel;
 
 import java.util.Objects;
 import java.util.concurrent.BlockingQueue;

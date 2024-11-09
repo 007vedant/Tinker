@@ -1,7 +1,7 @@
-package org.tinker.logger.core;
+package com.tinker.logger.core;
 
-import org.tinker.logger.entities.LoggerConfig;
-import org.tinker.logger.enums.LogLevel;
+import com.tinker.logger.entities.LoggerConfig;
+import com.tinker.logger.enums.LogLevel;
 
 /**
  * Interface to define APIs for logging.
