@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tinker</groupId>
-    <artifactId>Implementations</artifactId>
+    <artifactId>ConsistentHashing</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -57,7 +57,7 @@
                     <!-- Specify the main class -->
                     <archive>
                         <manifest>
-                            <mainClass>com.tinker.implementations.Implementations</mainClass>
+                            <mainClass>com.tinker.ConsistentHashingMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -68,7 +68,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <mainClass>com.tinker.implementations.Implementations</mainClass>
+                    <mainClass>com.tinker.ConsistentHashingMain</mainClass>
                 </configuration>
             </plugin>
         </plugins>

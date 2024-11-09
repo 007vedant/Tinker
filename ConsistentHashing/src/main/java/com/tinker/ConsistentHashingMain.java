@@ -1,15 +1,15 @@
-package com.tinker.implementations;
+package com.tinker;
 
-import com.tinker.implementations.consistentHashing.base.StorageNode;
-import com.tinker.implementations.consistentHashing.core.ConsistentHash;
+import com.tinker.consistentHashing.base.StorageNode;
+import com.tinker.consistentHashing.core.ConsistentHash;
 
 import java.util.List;
 import java.util.ArrayList;
 
-import static com.tinker.implementations.consistentHashing.utils.HelperUtils.printList;
+import static com.tinker.consistentHashing.utils.HelperUtils.printList;
 
-public class Implementations {
-    private Implementations() {
+public class ConsistentHashingMain {
+    private ConsistentHashingMain() {
     }
 
     public static void main(String[] args) {

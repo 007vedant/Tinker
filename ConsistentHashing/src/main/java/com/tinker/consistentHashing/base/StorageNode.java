@@ -1,4 +1,4 @@
-package com.tinker.implementations.consistentHashing.base;
+package com.tinker.consistentHashing.base;
 
 /**
  * Class to represent a storage node.

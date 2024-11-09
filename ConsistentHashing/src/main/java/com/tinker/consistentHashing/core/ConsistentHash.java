@@ -1,14 +1,14 @@
-package com.tinker.implementations.consistentHashing.core;
+package com.tinker.consistentHashing.core;
 
-import com.tinker.implementations.consistentHashing.base.StorageNode;
+import com.tinker.consistentHashing.base.StorageNode;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static com.tinker.implementations.consistentHashing.utils.HelperUtils.hashFunction;
-import static com.tinker.implementations.consistentHashing.utils.HelperUtils.bisect;
+import static com.tinker.consistentHashing.utils.HelperUtils.hashFunction;
+import static com.tinker.consistentHashing.utils.HelperUtils.bisect;
 
 /**
  * Represents array based implementation of consistent hashing algorithm.

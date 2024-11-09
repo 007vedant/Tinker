@@ -1,4 +1,4 @@
-package com.tinker.implementations.consistentHashing.utils;
+package com.tinker.consistentHashing.utils;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
