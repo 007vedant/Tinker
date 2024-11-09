@@ -1,6 +1,6 @@
-package com.tinker.core;
+package com.tinker.wctool.core;
 
-import com.tinker.models.Stats;
+import com.tinker.wctool.models.Stats;
 
 import java.io.BufferedReader;
 import java.io.StringReader;

@@ -1,4 +1,4 @@
-package com.tinker.models;
+package com.tinker.wctool.models;
 
 /**
  * Pojo to capture results of operations

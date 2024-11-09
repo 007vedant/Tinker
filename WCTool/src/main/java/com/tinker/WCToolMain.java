@@ -1,7 +1,7 @@
 package com.tinker;
 
-import com.tinker.core.WCService;
-import com.tinker.models.Stats;
+import com.tinker.wctool.core.WCService;
+import com.tinker.wctool.models.Stats;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,17 +11,17 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
-import static com.tinker.constants.Constants.WORDS;
-import static com.tinker.constants.Constants.CHARS;
-import static com.tinker.constants.Constants.LINES;
-import static com.tinker.constants.Constants.BYTES;
-import static com.tinker.constants.Constants.ACCEPTED_OPERATIONS;
+import static com.tinker.wctool.constants.Constants.WORDS;
+import static com.tinker.wctool.constants.Constants.CHARS;
+import static com.tinker.wctool.constants.Constants.LINES;
+import static com.tinker.wctool.constants.Constants.BYTES;
+import static com.tinker.wctool.constants.Constants.ACCEPTED_OPERATIONS;
 
 /**
  * Entry point to WCTool
  */
-public class WCTool {
-    private WCTool() {
+public class WCToolMain {
+    private WCToolMain() {
     }
 
     public static void main(String[] args) {

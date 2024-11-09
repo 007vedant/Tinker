@@ -1,4 +1,4 @@
-package com.tinker.constants;
+package com.tinker.wctool.constants;
 
 import java.util.List;
 

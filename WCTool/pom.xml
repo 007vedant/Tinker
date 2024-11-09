@@ -58,7 +58,7 @@
                     <!-- Specify the main class -->
                     <archive>
                         <manifest>
-                            <mainClass>com.tinker.WCTool</mainClass>
+                            <mainClass>com.tinker.WCToolMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
