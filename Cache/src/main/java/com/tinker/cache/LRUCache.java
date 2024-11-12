@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Implementation of Least Recently Used Cache.
  */
-public class LRUCache<K, V> {
+public class LRUCache<K, V> implements Cache<K, V> {
     private final Node head = new Node(null, null);
     private final Node tail = new Node(null, null);
     private final int capacity;
