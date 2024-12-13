@@ -1,6 +1,6 @@
 package com.tinker.rateLimiter.algorithms;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Instant;
 
 /**
  * Rate Limiter implementation using token bucket algorithm.
@@ -9,13 +9,13 @@ public class TokenBucketRateLimiter implements RateLimiter {
     private final int maxTokens;
     private final int fillRate;
     private int remainingTokens;
-    private long lastReFillTime;
+    private Instant lastReFillTime;
 
     public TokenBucketRateLimiter(int maxTokens, int fillRate) {
         this.maxTokens = maxTokens;
         this.fillRate = fillRate;
         this.remainingTokens = maxTokens;
-        this.lastReFillTime = System.currentTimeMillis();
+        this.lastReFillTime = Instant.now();
     }
 
     @Override
@@ -29,10 +29,10 @@ public class TokenBucketRateLimiter implements RateLimiter {
     }
 
     private void refillTokens() {
-        long now = System.currentTimeMillis();
-        long timeElapsed = TimeUnit.MILLISECONDS.toSeconds(now - lastReFillTime);
+        Instant now = Instant.now();
+        long timeElapsed = now.toEpochMilli() - lastReFillTime.toEpochMilli();
         if (timeElapsed > 0) {
-            int tokensToFill = (int) timeElapsed * fillRate;
+            int tokensToFill = (int) ((timeElapsed * fillRate) / 1000.0);
             remainingTokens = Math.min(maxTokens, remainingTokens + tokensToFill);
             lastReFillTime = now;
         }
